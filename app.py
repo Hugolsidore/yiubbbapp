@@ -13,4 +13,4 @@ def test():
     return "This is Test"
 
 if __name__=="__main__": #如果以主程式執行
-    app.run() #立刻啟動伺服器
+    app.run('0.0.0.0') #立刻啟動伺服器
